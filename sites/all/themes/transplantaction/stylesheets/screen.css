@@ -1,0 +1,1390 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a img {
+  border: 0; }
+
+input, select, textarea, button {
+  font-family: inherit; }
+
+#page-wrapper > div {
+  overflow: hidden; }
+
+body {
+  font-family: "futura-pt",sans-serif;
+  font-weight: 400; }
+
+.i18n-fr .region-header {
+  max-width: 1060px; }
+.i18n-fr #block-system-main-menu {
+  width: 45%; }
+  .i18n-fr #block-system-main-menu ul.menu a {
+    font-size: 16px;
+    width: 90px; }
+  .i18n-fr #block-system-main-menu .expanded .menu a {
+    padding-right: 284px; }
+
+.i18n-fr h1 {
+  line-height: 1em; }
+
+a,
+li a.active,
+li .view-information-links a.views-row:hover,
+.view-information-links li a.views-row:hover,
+li .view-clone-of-information-links a.views-row:hover,
+.view-clone-of-information-links li a.views-row:hover,
+li #block-menu-menu-second-menu a.views-row:hover,
+#block-menu-menu-second-menu li a.views-row:hover,
+a:visited {
+  color: #f7941e;
+  text-decoration: none; }
+
+.form-type-item {
+  display: none; }
+
+h1, .views-field-title {
+  font-size: 36px;
+  color: #f7941e;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+
+h2 {
+  color: #f7941e;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 16px;
+  color: #f7941e;
+  font-weight: normal; }
+
+p, li {
+  color: white;
+  font-size: 16px; }
+
+p {
+  padding-bottom: 10px;
+  line-height: 1.3em; }
+
+ul {
+  padding-left: 20px; }
+  ul li {
+    list-style-image: url("../images/bullets.png"); }
+
+.region-header,
+#content > div {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 10px 0px; }
+
+#content > div {
+  position: relative; }
+
+.region-header {
+  height: 120px;
+  position: static; }
+
+.expanded .menu {
+  text-align: right; }
+  .expanded .menu a#about {
+    display: none; }
+  .expanded .menu a#term-use-sub {
+    display: none; }
+
+.text-center {
+  clear: left;
+  max-width: 528px;
+  margin: 0 auto; }
+
+#content {
+  background: #004c6c;
+  padding: 20px 10px;
+  min-height: 1100px; }
+  #content h1 {
+    text-align: center;
+    text-transform: uppercase; }
+  #content ul {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+.expanded .menu {
+  display: none;
+  position: absolute;
+  z-index: 99999999; }
+
+#block-system-main-menu {
+  position: static;
+  overflow: visible;
+  float: right;
+  width: 42%;
+  height: 100px;
+  background: url(../images/cta-logo.png) no-repeat right;
+  background-position: right bottom; }
+  #block-system-main-menu ul.menu {
+    float: left;
+    display: table;
+    padding-left: 0px;
+    height: 154px; }
+    #block-system-main-menu ul.menu li {
+      list-style: none;
+      display: table-cell;
+      margin: 0;
+      padding: 0;
+      vertical-align: middle; }
+    #block-system-main-menu ul.menu li:hover {
+      background: url("../images/menu-back-hover.png");
+      background-position: center center;
+      color: white; }
+      #block-system-main-menu ul.menu li:hover a {
+        color: white; }
+    #block-system-main-menu ul.menu a {
+      color: #004c6c;
+      display: table-cell;
+      width: 70px;
+      text-align: center;
+      font-size: 18px;
+      vertical-align: middle;
+      height: 85px;
+      font-weight: 500;
+      padding: 0px 15px;
+      text-transform: uppercase; }
+  #block-system-main-menu .expanded .menu {
+    display: none;
+    height: 50px;
+    background: #f7941e;
+    text-align: right;
+    width: 100%;
+    left: 0;
+    margin-top: 0px; }
+    #block-system-main-menu .expanded .menu a {
+      padding-top: 10px;
+      padding-right: 144px;
+      display: block;
+      width: 250px;
+      height: 30px;
+      color: white;
+      text-transform: lowercase;
+      font-weight: normal;
+      float: right; }
+      #block-system-main-menu .expanded .menu a:hover {
+        text-decoration: underline; }
+    #block-system-main-menu .expanded .menu li {
+      display: block;
+      max-width: 960px;
+      margin: 0 auto; }
+    #block-system-main-menu .expanded .menu li:hover {
+      background: none; }
+  #block-system-main-menu .expanded:hover .menu {
+    display: block; }
+
+.before_wrapper {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background: #f08f1c;
+  z-index: 999; }
+
+#white-region {
+  overflow: hidden; }
+
+#blue-region2 {
+  background: #004c6c;
+  overflow: hidden; }
+
+#white-region2 p {
+  color: #004c6c; }
+
+#safe-food,
+#food-avoid {
+  float: left;
+  width: 45%;
+  padding: 20px; }
+
+.front #content {
+  display: none; }
+
+.row {
+  padding-bottom: 10px; }
+
+.image {
+  display: inline-block;
+  width: 30px;
+  margin-right: 5px; }
+  .image img {
+    vertical-align: middle; }
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%; }
+
+#footer {
+  background: url("../images/footer-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -ms-behavior: url("/sites/all/themes/transplantaction/css/backgroundsize.htc");
+  padding: 35px 0px;
+  text-align: center; }
+  #footer h1 {
+    color: white; }
+
+#footer-inner {
+  height: 60px; }
+
+.box1, .box2, .box3, .box4 {
+  float: left;
+  width: 45%;
+  padding: 20px; }
+
+.box1, .box3 {
+  clear: left; }
+
+.bottom-white {
+  clear: left;
+  background: white;
+  text-align: center;
+  padding: 20px; }
+  .bottom-white p {
+    color: #f9b475;
+    max-width: 350px;
+    font-size: 18px;
+    text-shadow: none;
+    text-transform: uppercase;
+    margin: 0 auto; }
+
+li.translation_fr a,
+li.translation_en a {
+  display: none; }
+
+#block-block-1,
+#block-block-9 {
+  width: 400px;
+  float: left;
+  padding-top: 30px; }
+  #block-block-1 a,
+  #block-block-9 a {
+    line-height: 90px; }
+  #block-block-1 p,
+  #block-block-9 p {
+    padding-bottom: 0px; }
+  #block-block-1 img,
+  #block-block-9 img {
+    vertical-align: middle; }
+
+#block-views-home-slider-block {
+  height: 490px; }
+  #block-views-home-slider-block .views-row {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px; }
+  #block-views-home-slider-block .view-content {
+    position: relative; }
+
+.fr .view-home-slider .views-field-body .field-content {
+  max-width: 372px; }
+
+.view-home-slider {
+  position: relative;
+  overflow: hidden; }
+  .view-home-slider a:hover {
+    text-decoration: underline !important; }
+  .view-home-slider .views-row-3 {
+    background-image: url("../images/header_back.jpg"); }
+  .view-home-slider .views-row-1 {
+    background-image: url("../images/caregivers.jpg"); }
+  .view-home-slider .views-row-2 {
+    background-image: url("../images/excercise.jpg"); }
+  .view-home-slider .view-content {
+    position: relative; }
+  .view-home-slider .views-field-body h2 {
+    font-size: 36px;
+    color: white;
+    padding-bottom: 15px; }
+  .view-home-slider .views-field-body .field-content {
+    max-width: 330px; }
+  .view-home-slider .views-field-body .field-content {
+    max-width: 370px; }
+  .view-home-slider .views-field-body,
+  .view-home-slider .views-field-title {
+    max-width: 920px;
+    padding: 0 20px;
+    margin: 0 auto; }
+  .view-home-slider h1 {
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 150px; }
+  .view-home-slider ul.indicators {
+    z-index: 9999;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    padding-left: 0px; }
+    .view-home-slider ul.indicators li.active,
+    .view-home-slider ul.indicators .view-information-links li:hover,
+    .view-information-links .view-home-slider ul.indicators li:hover,
+    .view-home-slider ul.indicators .view-clone-of-information-links li:hover,
+    .view-clone-of-information-links .view-home-slider ul.indicators li:hover,
+    .view-home-slider ul.indicators #block-menu-menu-second-menu li:hover,
+    #block-menu-menu-second-menu .view-home-slider ul.indicators li:hover {
+      background-image: url("../images/orange-circles.png"); }
+    .view-home-slider ul.indicators li {
+      width: 5px;
+      height: 30px;
+      color: transparent;
+      font-size: 0;
+      background-image: url("../images/grey-dot.png");
+      background-position: center center;
+      padding: 10px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      opacity: 1;
+      cursor: pointer; }
+
+.page-node-11 #block-system-main {
+  width: 45%;
+  margin-right: 20px;
+  float: left; }
+
+#block-block-3 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+  clear: left;
+  background: white; }
+  #block-block-3 p {
+    font-size: 18px;
+    color: #004c6c; }
+
+#block-block-4,
+#block-block-11--2 {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden; }
+
+.i18n-fr #block-views-website-links-footer-block .views-row-3 .views-field-field-image-link {
+  line-height: 135px; }
+
+#block-views-website-links-footer-block,
+#block-views-website-links-footer-block--2 {
+  overflow: hidden;
+  background: white; }
+  #block-views-website-links-footer-block .view-content,
+  #block-views-website-links-footer-block--2 .view-content {
+    max-width: 950px;
+    margin: 40px auto;
+    overflow: hidden; }
+  #block-views-website-links-footer-block .views-field-field-image-link,
+  #block-views-website-links-footer-block--2 .views-field-field-image-link {
+    line-height: 120px; }
+    #block-views-website-links-footer-block .views-field-field-image-link img,
+    #block-views-website-links-footer-block--2 .views-field-field-image-link img {
+      vertical-align: bottom; }
+  #block-views-website-links-footer-block .views-row,
+  #block-views-website-links-footer-block--2 .views-row {
+    float: left;
+    width: 33%;
+    height: 230px;
+    text-align: center; }
+  #block-views-website-links-footer-block .views-row-3 .views-field-field-image-link,
+  #block-views-website-links-footer-block--2 .views-row-3 .views-field-field-image-link {
+    line-height: 130px; }
+  #block-views-website-links-footer-block .views-field-title,
+  #block-views-website-links-footer-block--2 .views-field-title {
+    color: #004c6c;
+    padding: 0px 50px;
+    font-size: 20px;
+    text-shadow: none;
+    padding-top: 10px; }
+
+#block-block-5 h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 40px; }
+#block-block-5 p {
+  color: #004c6c;
+  text-align: center; }
+
+.region-footer1 {
+  min-height: 520px;
+  padding: 20px 0px;
+  background-image: url("../images/aboutus-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-behavior: url("/sites/all/themes/transplantaction/css/backgroundsize.htc");
+  background-position: center center;
+  border-bottom: 5px solid #004c6c; }
+  .region-footer1 h2 {
+    font-size: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); }
+  .region-footer1 .content {
+    max-width: 840px;
+    margin: 0 auto;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2); }
+    .region-footer1 .content p {
+      max-width: 420px; }
+
+#block-locale-language {
+  padding-top: 10px;
+  margin-left: -107px;
+  z-index: 9999;
+  position: relative;
+  float: right; }
+  #block-locale-language li {
+    float: left;
+    padding-right: 10px;
+    list-style: none; }
+    #block-locale-language li:first-child a {
+      padding-right: 11px;
+      border-right: 1px solid #004c6c; }
+    #block-locale-language li a {
+      color: #004c6c;
+      font-size: 14px; }
+      #block-locale-language li a:hover, #block-locale-language li a.active, #block-locale-language li .view-information-links a.views-row:hover, .view-information-links #block-locale-language li a.views-row:hover,
+      #block-locale-language li .view-clone-of-information-links a.views-row:hover,
+      .view-clone-of-information-links #block-locale-language li a.views-row:hover,
+      #block-locale-language li #block-menu-menu-second-menu a.views-row:hover,
+      #block-menu-menu-second-menu #block-locale-language li a.views-row:hover {
+        color: #f7941e; }
+
+#block-block-6 p,
+#block-block-12 p {
+  padding-bottom: 0px;
+  margin-bottom: -5px; }
+
+#block-views-information-body-block {
+  background: #004c6c; }
+
+.view-information-body {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); }
+  .view-information-body h2 {
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+  .view-information-body a {
+    color: white; }
+  .view-information-body .subtext {
+    max-width: 300px;
+    margin-left: 40px; }
+  .view-information-body > .view-content {
+    position: relative; }
+    .view-information-body > .view-content > .views-row > .views-field-title {
+      text-align: center;
+      padding: 20px 0px;
+      background: #f8971c;
+      text-transform: uppercase;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); }
+      .view-information-body > .view-content > .views-row > .views-field-title span {
+        color: white; }
+  .view-information-body ul {
+    padding-bottom: 10px; }
+  .view-information-body .inner-body {
+    max-width: 880px;
+    margin: 0 auto; }
+  .view-information-body .left {
+    float: left;
+    width: 45%;
+    padding: 20px; }
+  .view-information-body .views-row-4 .bottom-white p {
+    color: #004c6c;
+    max-width: 600px; }
+  .view-information-body .views-row-7 .text p {
+    color: #f7941e; }
+  .view-information-body .views-row-9 .inner-body {
+    width: 500px;
+    padding: 20px 0px; }
+  .view-information-body .views-row {
+    position: relative;
+    float: left;
+    width: 30%; }
+    .view-information-body .views-row .views-field-body {
+      overflow: hidden; }
+    .view-information-body .views-row .field-content {
+      vertical-align: middle; }
+      .view-information-body .views-row .field-content .top-block {
+        max-width: 880px;
+        margin: 0 auto;
+        overflow: hidden; }
+    .view-information-body .views-row:hover .views-field-title {
+      display: block; }
+  .view-information-body #block-block-2,
+  .view-information-body #block-block-10--2 {
+    float: left;
+    width: 45%;
+    padding: 20px; }
+
+a#now-what {
+  background: url("../images/now-what.png");
+  background: url("../images/now-what.svg");
+  background-repeat: no-repeat;
+  background-position: center 25%; }
+  li.leaf.active a#now-what,
+  .view-information-links li.leaf:hover a#now-what,
+  .view-clone-of-information-links li.leaf:hover a#now-what,
+  #block-menu-menu-second-menu li.leaf:hover a#now-what, a#now-what:hover {
+    background: url("../images/now-what-hover.png");
+    background: url("../images/TI-NowWhat-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+
+.view-information-links .views-row,
+.view-information-links li,
+.view-clone-of-information-links .views-row,
+.view-clone-of-information-links li,
+#block-menu-menu-second-menu .views-row,
+#block-menu-menu-second-menu li {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer; }
+  .view-information-links .views-row p,
+  .view-information-links li p,
+  .view-clone-of-information-links .views-row p,
+  .view-clone-of-information-links li p,
+  #block-menu-menu-second-menu .views-row p,
+  #block-menu-menu-second-menu li p {
+    font-size: 28px;
+    padding-bottom: 0;
+    text-shadow: 1px 1px 1px #969696; }
+.view-information-links .view-content,
+.view-information-links ul.menu,
+.view-clone-of-information-links .view-content,
+.view-clone-of-information-links ul.menu,
+#block-menu-menu-second-menu .view-content,
+#block-menu-menu-second-menu ul.menu {
+  text-align: center;
+  overflow: hidden;
+  max-width: 920px;
+  margin: 0 auto; }
+  .view-information-links .view-content img,
+  .view-information-links ul.menu img,
+  .view-clone-of-information-links .view-content img,
+  .view-clone-of-information-links ul.menu img,
+  #block-menu-menu-second-menu .view-content img,
+  #block-menu-menu-second-menu ul.menu img {
+    vertical-align: middle; }
+  .view-information-links .view-content .views-field-title,
+  .view-information-links .view-content a,
+  .view-information-links ul.menu .views-field-title,
+  .view-information-links ul.menu a,
+  .view-clone-of-information-links .view-content .views-field-title,
+  .view-clone-of-information-links .view-content a,
+  .view-clone-of-information-links ul.menu .views-field-title,
+  .view-clone-of-information-links ul.menu a,
+  #block-menu-menu-second-menu .view-content .views-field-title,
+  #block-menu-menu-second-menu .view-content a,
+  #block-menu-menu-second-menu ul.menu .views-field-title,
+  #block-menu-menu-second-menu ul.menu a {
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80px;
+    height: 50px;
+    padding: 0px 10px;
+    padding-top: 75px;
+    font-size: 16px;
+    background-position: center 25%;
+    text-align: center;
+    color: #004c6c;
+    padding-bottom: 10px;
+    display: table; }
+    .view-information-links .view-content .views-field-title span,
+    .view-information-links .view-content a span,
+    .view-information-links ul.menu .views-field-title span,
+    .view-information-links ul.menu a span,
+    .view-clone-of-information-links .view-content .views-field-title span,
+    .view-clone-of-information-links .view-content a span,
+    .view-clone-of-information-links ul.menu .views-field-title span,
+    .view-clone-of-information-links ul.menu a span,
+    #block-menu-menu-second-menu .view-content .views-field-title span,
+    #block-menu-menu-second-menu .view-content a span,
+    #block-menu-menu-second-menu ul.menu .views-field-title span,
+    #block-menu-menu-second-menu ul.menu a span {
+      vertical-align: middle;
+      display: table-cell; }
+  .view-information-links .view-content .views-row,
+  .view-information-links .view-content li,
+  .view-information-links ul.menu .views-row,
+  .view-information-links ul.menu li,
+  .view-clone-of-information-links .view-content .views-row,
+  .view-clone-of-information-links .view-content li,
+  .view-clone-of-information-links ul.menu .views-row,
+  .view-clone-of-information-links ul.menu li,
+  #block-menu-menu-second-menu .view-content .views-row,
+  #block-menu-menu-second-menu .view-content li,
+  #block-menu-menu-second-menu ul.menu .views-row,
+  #block-menu-menu-second-menu ul.menu li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border-right: 1px solid #004c6c;
+    display: block;
+    width: 100px;
+    overflow: hidden; }
+    .view-information-links .view-content .views-row:last-child,
+    .view-information-links .view-content li:last-child,
+    .view-information-links ul.menu .views-row:last-child,
+    .view-information-links ul.menu li:last-child,
+    .view-clone-of-information-links .view-content .views-row:last-child,
+    .view-clone-of-information-links .view-content li:last-child,
+    .view-clone-of-information-links ul.menu .views-row:last-child,
+    .view-clone-of-information-links ul.menu li:last-child,
+    #block-menu-menu-second-menu .view-content .views-row:last-child,
+    #block-menu-menu-second-menu .view-content li:last-child,
+    #block-menu-menu-second-menu ul.menu .views-row:last-child,
+    #block-menu-menu-second-menu ul.menu li:last-child {
+      border-right: 0px; }
+    .view-information-links .view-content .views-row a:hover,
+    .view-information-links .view-content li a:hover,
+    .view-information-links ul.menu .views-row a:hover,
+    .view-information-links ul.menu li a:hover,
+    .view-clone-of-information-links .view-content .views-row a:hover,
+    .view-clone-of-information-links .view-content li a:hover,
+    .view-clone-of-information-links ul.menu .views-row a:hover,
+    .view-clone-of-information-links ul.menu li a:hover,
+    #block-menu-menu-second-menu .view-content .views-row a:hover,
+    #block-menu-menu-second-menu .view-content li a:hover,
+    #block-menu-menu-second-menu ul.menu .views-row a:hover,
+    #block-menu-menu-second-menu ul.menu li a:hover {
+      color: white; }
+  .view-information-links .view-content li:hover, .view-information-links .view-content li.active,
+  .view-information-links .view-content li:hover,
+  .view-information-links .view-content #block-menu-menu-second-menu li:hover,
+  #block-menu-menu-second-menu .view-information-links .view-content li:hover,
+  .view-information-links ul.menu li:hover,
+  .view-information-links ul.menu li.active,
+  .view-information-links ul.menu li:hover,
+  .view-information-links ul.menu #block-menu-menu-second-menu li:hover,
+  #block-menu-menu-second-menu .view-information-links ul.menu li:hover,
+  .view-clone-of-information-links .view-content li:hover,
+  .view-clone-of-information-links .view-content li.active,
+  .view-clone-of-information-links .view-content li:hover,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li:hover,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li:hover,
+  .view-clone-of-information-links ul.menu li:hover,
+  .view-clone-of-information-links ul.menu li.active,
+  .view-clone-of-information-links ul.menu li:hover,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li:hover,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li:hover,
+  #block-menu-menu-second-menu .view-content li:hover,
+  #block-menu-menu-second-menu .view-content li.active,
+  #block-menu-menu-second-menu .view-content li:hover,
+  #block-menu-menu-second-menu ul.menu li:hover,
+  #block-menu-menu-second-menu ul.menu li.active,
+  #block-menu-menu-second-menu ul.menu li:hover {
+    background: url("../images/menu-back-hover.png");
+    background-position: center center;
+    background-size: cover;
+    color: white; }
+  .view-information-links .view-content li.active li,
+  .view-information-links .view-content li:hover li,
+  .view-information-links .view-content #block-menu-menu-second-menu li:hover li,
+  #block-menu-menu-second-menu .view-information-links .view-content li:hover li,
+  .view-information-links ul.menu li.active li,
+  .view-information-links ul.menu li:hover li,
+  .view-information-links ul.menu #block-menu-menu-second-menu li:hover li,
+  #block-menu-menu-second-menu .view-information-links ul.menu li:hover li,
+  .view-clone-of-information-links .view-content li.active li,
+  .view-clone-of-information-links .view-content li:hover li,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li:hover li,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li:hover li,
+  .view-clone-of-information-links ul.menu li.active li,
+  .view-clone-of-information-links ul.menu li:hover li,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li:hover li,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li:hover li,
+  #block-menu-menu-second-menu .view-content li.active li,
+  #block-menu-menu-second-menu .view-content li:hover li,
+  #block-menu-menu-second-menu ul.menu li.active li,
+  #block-menu-menu-second-menu ul.menu li:hover li {
+    color: white; }
+  .view-information-links .view-content .views-row-2 .views-field-title,
+  .view-information-links ul.menu .views-row-2 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-2 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-2 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-2 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-2 .views-field-title {
+    background: url("../images/infection-icon.png");
+    background: url("../images/infection.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    z-index: 9999; }
+  .view-information-links .view-content .views-row-2.active .views-field-title, .view-information-links .view-content .views-row-2.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-2:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-2.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-2:hover .views-field-title,
+  .view-information-links .view-content .views-row-2 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-2.active .views-field-title,
+  .view-information-links ul.menu .views-row-2.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-2:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-2.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-2:hover .views-field-title,
+  .view-information-links ul.menu .views-row-2 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-2.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-2.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-2:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-2.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-2:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-2 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-2.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-2.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-2:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-2.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-2:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-2 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-2.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-2 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-2.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-2.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-2:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-2 .views-field-title:hover {
+    background: url("../images/infection-hover.png");
+    background: url("../images/TI-Infection-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-3 .views-field-title,
+  .view-information-links ul.menu .views-row-3 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-3 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-3 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-3 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-3 .views-field-title {
+    background: url("../images/medication.png");
+    background: url("../images/medication.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-3.active .views-field-title, .view-information-links .view-content .views-row-3.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-3:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-3.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-3:hover .views-field-title,
+  .view-information-links .view-content .views-row-3 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-3.active .views-field-title,
+  .view-information-links ul.menu .views-row-3.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-3:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-3.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-3:hover .views-field-title,
+  .view-information-links ul.menu .views-row-3 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-3.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-3.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-3:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-3.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-3:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-3 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-3.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-3.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-3:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-3.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-3:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-3 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-3.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-3 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-3.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-3.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-3:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-3 .views-field-title:hover {
+    background: url("../images/medication-hover.png");
+    background: url("../images/TI-Medication-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-4 .views-field-title,
+  .view-information-links ul.menu .views-row-4 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-4 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-4 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-4 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-4 .views-field-title {
+    background: url("../images/nutrition.png");
+    background: url("../images/nutrition.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-4.active .views-field-title, .view-information-links .view-content .views-row-4.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-4:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-4.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-4:hover .views-field-title,
+  .view-information-links .view-content .views-row-4 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-4.active .views-field-title,
+  .view-information-links ul.menu .views-row-4.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-4:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-4.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-4:hover .views-field-title,
+  .view-information-links ul.menu .views-row-4 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-4.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-4.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-4:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-4.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-4:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-4 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-4.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-4.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-4:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-4.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-4:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-4 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-4.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-4 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-4.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-4.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-4:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-4 .views-field-title:hover {
+    background: url("../images/nutrition-hover.png");
+    background: url("../images/TI-Nutrition-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-5 .views-field-title,
+  .view-information-links ul.menu .views-row-5 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-5 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-5 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-5 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-5 .views-field-title {
+    background: url("../images/excersise.png");
+    background: url("../images/excercise.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-5.active .views-field-title, .view-information-links .view-content .views-row-5.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-5:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-5.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-5:hover .views-field-title,
+  .view-information-links .view-content .views-row-5 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-5.active .views-field-title,
+  .view-information-links ul.menu .views-row-5.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-5:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-5.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-5:hover .views-field-title,
+  .view-information-links ul.menu .views-row-5 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-5.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-5.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-5:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-5.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-5:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-5 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-5.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-5.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-5:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-5.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-5:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-5 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-5.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-5 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-5.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-5.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-5:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-5 .views-field-title:hover {
+    background: url("../images/excercise-hover.png");
+    background: url("../images/TI-Exercise-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-6 .views-field-title,
+  .view-information-links ul.menu .views-row-6 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-6 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-6 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-6 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-6 .views-field-title {
+    background: url("../images/sexuality.png");
+    background: url("../images/sexuality.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-6.active .views-field-title, .view-information-links .view-content .views-row-6.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-6:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-6.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-6:hover .views-field-title,
+  .view-information-links .view-content .views-row-6 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-6.active .views-field-title,
+  .view-information-links ul.menu .views-row-6.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-6:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-6.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-6:hover .views-field-title,
+  .view-information-links ul.menu .views-row-6 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-6.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-6.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-6:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-6.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-6:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-6 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-6.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-6.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-6:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-6.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-6:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-6 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-6.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-6 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-6.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-6.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-6:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-6 .views-field-title:hover {
+    background: url("../images/sexuality-hover.png");
+    background: url("../images/TI-Sexuality-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-7 .views-field-title,
+  .view-information-links ul.menu .views-row-7 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-7 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-7 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-7 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-7 .views-field-title {
+    background: url("../images/caregiver.png");
+    background: url("../images/caregiver.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-7.active .views-field-title, .view-information-links .view-content .views-row-7.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-7:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-7.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-7:hover .views-field-title,
+  .view-information-links .view-content .views-row-7 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-7.active .views-field-title,
+  .view-information-links ul.menu .views-row-7.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-7:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-7.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-7:hover .views-field-title,
+  .view-information-links ul.menu .views-row-7 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-7.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-7.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-7:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-7.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-7:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-7 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-7.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-7.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-7:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-7.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-7:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-7 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-7.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-7 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-7.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-7.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-7:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-7 .views-field-title:hover {
+    background: url("../images/caregiver-hover.png");
+    background: url("../images/TI-Caregivers-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-8 .views-field-title,
+  .view-information-links ul.menu .views-row-8 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-8 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-8 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-8 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-8 .views-field-title {
+    background: url("../images/track.png");
+    background: url("../images/track.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-8.active .views-field-title, .view-information-links .view-content .views-row-8.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-8:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-8.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-8:hover .views-field-title,
+  .view-information-links .view-content .views-row-8 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-8.active .views-field-title,
+  .view-information-links ul.menu .views-row-8.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-8:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-8.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-8:hover .views-field-title,
+  .view-information-links ul.menu .views-row-8 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-8.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-8.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-8:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-8.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-8:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-8 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-8.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-8.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-8:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-8.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-8:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-8 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-8.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-8 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-8.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-8.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-8:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-8 .views-field-title:hover {
+    background: url("../images/track-hover.png");
+    background: url("../images/TI-StayingOnTrack-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-9 .views-field-title,
+  .view-information-links ul.menu .views-row-9 .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-9 .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-9 .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-9 .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-9 .views-field-title {
+    background: url("../images/support.png");
+    background: url("../images/support.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+  .view-information-links .view-content .views-row-9.active .views-field-title, .view-information-links .view-content .views-row-9.views-row:hover .views-field-title,
+  .view-information-links .view-content li.views-row-9:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content .views-row-9.views-row:hover .views-field-title,
+  .view-information-links .view-content #block-menu-menu-second-menu li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links .view-content li.views-row-9:hover .views-field-title,
+  .view-information-links .view-content .views-row-9 .views-field-title:hover,
+  .view-information-links ul.menu .views-row-9.active .views-field-title,
+  .view-information-links ul.menu .views-row-9.views-row:hover .views-field-title,
+  .view-information-links ul.menu li.views-row-9:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu .views-row-9.views-row:hover .views-field-title,
+  .view-information-links ul.menu #block-menu-menu-second-menu li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu .view-information-links ul.menu li.views-row-9:hover .views-field-title,
+  .view-information-links ul.menu .views-row-9 .views-field-title:hover,
+  .view-clone-of-information-links .view-content .views-row-9.active .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-9.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content li.views-row-9:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content .views-row-9.views-row:hover .views-field-title,
+  .view-clone-of-information-links .view-content #block-menu-menu-second-menu li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links .view-content li.views-row-9:hover .views-field-title,
+  .view-clone-of-information-links .view-content .views-row-9 .views-field-title:hover,
+  .view-clone-of-information-links ul.menu .views-row-9.active .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-9.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu li.views-row-9:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu .views-row-9.views-row:hover .views-field-title,
+  .view-clone-of-information-links ul.menu #block-menu-menu-second-menu li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu .view-clone-of-information-links ul.menu li.views-row-9:hover .views-field-title,
+  .view-clone-of-information-links ul.menu .views-row-9 .views-field-title:hover,
+  #block-menu-menu-second-menu .view-content .views-row-9.active .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu .view-content .views-row-9 .views-field-title:hover,
+  #block-menu-menu-second-menu ul.menu .views-row-9.active .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-9.views-row:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu li.views-row-9:hover .views-field-title,
+  #block-menu-menu-second-menu ul.menu .views-row-9 .views-field-title:hover {
+    background: url("../images/support-hover.png");
+    background: url("../images/TI-Support-Wht.svg");
+    background-repeat: no-repeat;
+    background-position: center 25%; }
+
+@media screen and (max-width: 1070px) {
+  #block-block-7 {
+    padding: 20px 10%; } }
+@media screen and (max-width: 990px) {
+  #block-system-main-menu ul.menu a {
+    padding: 0px 5px; }
+
+  #block-views-website-links-footer-block .views-field-title {
+    padding: 0 20px; } }
+@media screen and (max-width: 920px) {
+  .i18n-fr #block-system-main-menu {
+    padding-left: 0px;
+    max-width: 400px; }
+
+  #block-system-main-menu {
+    padding-left: 0px;
+    width: 340px; }
+
+  .view-information-links .view-content .views-row,
+  .view-clone-of-information-links .view-content .views-row {
+    width: 10.99%; }
+
+  .view-home-slider .views-row-3 {
+    background-position: -200px; }
+
+  .region-header {
+    height: 120px; }
+
+  .view-clone-of-information-links .view-content,
+  .view-information-links .view-content {
+    max-width: 770px; }
+    .view-clone-of-information-links .view-content .views-row .views-field-title,
+    .view-information-links .view-content .views-row .views-field-title {
+      padding: 90px 7px 0px;
+      font-size: 14px;
+      width: 70px; }
+
+  .box1, .box2, .box3, .box4 {
+    width: 43%; }
+
+  #track-image {
+    width: 300px !important;
+    height: auto !important; }
+
+  .view-information-body .inner-body {
+    max-width: 795px; }
+  .view-information-body .left {
+    width: 43%; }
+
+  #block-block-7,
+  #block-block-8 {
+    padding: 20px 20px; }
+
+  #safe-food, #food-avoid {
+    padding: 0px; } }
+@media screen and (max-width: 860px) {
+  #block-block-1,
+  #block-block-9 {
+    max-width: 330px;
+    margin: 0 auto; }
+    #block-block-1 img,
+    #block-block-9 img {
+      width: 100%; }
+
+  #block-system-main-menu ul.menu a {
+    font-size: 14px; }
+
+  .i18n-fr #block-system-main-menu ul.menu a {
+    font-size: 14px;
+    width: 70px; } }
+@media screen and (max-width: 792px) {
+  #block-locale-language {
+    position: absolute;
+    margin-left: 0px; }
+
+  #block-views-website-links-footer-block .views-field-title,
+  #block-views-website-links-footer-block--2 .views-field-title {
+    padding: 0px 20px; } }
+@media screen and (max-width: 767px) {
+  #block-block-1,
+  #block-block-9 {
+    float: none;
+    background: url(../images/cta-logo.png) no-repeat right;
+    background-position: right top;
+    background-size: 15%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 50px 0px 11px; }
+    #block-block-1 img,
+    #block-block-9 img {
+      width: 100%; }
+    #block-block-1 a,
+    #block-block-9 a {
+      display: block;
+      line-height: 40px; }
+
+  .view-information-body .top-block {
+    width: 90%; }
+  .view-information-body .left {
+    width: 100%;
+    padding: 20px 0px; }
+  .view-information-body #block-block-2,
+  .view-information-body #block-block-10--2 {
+    width: 100%; }
+  .view-information-body #safe-food, .view-information-body #food-avoid {
+    float: none;
+    width: 100%; }
+  .view-information-body .views-row-9 .inner-body {
+    width: 90%; }
+
+  #block-system-main-menu .expanded .menu {
+    margin-top: -5px; }
+    #block-system-main-menu .expanded .menu a {
+      padding-right: 0px;
+      margin: 0 auto;
+      float: none; }
+
+  #block-views-home-slider-block {
+    height: 390px; }
+    #block-views-home-slider-block .views-row {
+      height: 390px; }
+
+  .views-row-3 .box4 {
+    width: 80%;
+    padding-left: 10%; }
+
+  .i18n-fr #block-system-main-menu {
+    width: 100%; }
+    .i18n-fr #block-system-main-menu ul.menu a {
+      font-size: 12px;
+      padding: 15px 3px; }
+    .i18n-fr #block-system-main-menu li.expanded ul.menu {
+      width: 100%; }
+
+  #block-system-main-menu ul.menu li:hover {
+    background: none; }
+
+  #block-system-main-menu {
+    float: none;
+    padding-left: 0px;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-image: none; }
+    #block-system-main-menu ul.menu {
+      float: none;
+      height: 54px;
+      display: block;
+      text-align: center;
+      margin: 0 auto; }
+      #block-system-main-menu ul.menu li {
+        display: inline-block;
+        height: 54px; }
+      #block-system-main-menu ul.menu li.expanded ul.menu {
+        padding-top: 0px;
+        width: 100%; }
+        #block-system-main-menu ul.menu li.expanded ul.menu a {
+          font-size: 16px; }
+      #block-system-main-menu ul.menu a {
+        height: 34px;
+        display: table-cell;
+        padding: 15px 13px; }
+      #block-system-main-menu ul.menu li a:hover {
+        background: url("../images/menu-back-hover.png"); }
+
+  .region-header {
+    height: 164px; }
+
+  #block-views-website-links-footer-block .views-row,
+  #block-views-website-links-footer-block--2 .views-row {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px; }
+
+  .view-information-links > .view-content,
+  .view-clone-of-information-links > .view-content {
+    margin: 0 auto; }
+    .view-information-links > .view-content .views-row-4,
+    .view-information-links > .view-content .views-row-7,
+    .view-clone-of-information-links > .view-content .views-row-4,
+    .view-clone-of-information-links > .view-content .views-row-7 {
+      clear: left; }
+    .view-information-links > .view-content > .views-row,
+    .view-clone-of-information-links > .view-content > .views-row {
+      border-bottom: 1px solid #004c6c;
+      width: 33.10%; }
+      .view-information-links > .view-content > .views-row:hover .views-field-title,
+      .view-clone-of-information-links > .view-content > .views-row:hover .views-field-title {
+        background-position: center !important; }
+      .view-information-links > .view-content > .views-row span,
+      .view-clone-of-information-links > .view-content > .views-row span {
+        display: none; }
+      .view-information-links > .view-content > .views-row .views-field-title,
+      .view-clone-of-information-links > .view-content > .views-row .views-field-title {
+        padding: 40px 7px 0px;
+        background-position: center !important; }
+        .view-information-links > .view-content > .views-row .views-field-title:hover,
+        .view-clone-of-information-links > .view-content > .views-row .views-field-title:hover {
+          background-position: center !important; }
+    .view-information-links > .view-content .views-row-3,
+    .view-information-links > .view-content .views-row-6,
+    .view-information-links > .view-content .views-row-9,
+    .view-clone-of-information-links > .view-content .views-row-3,
+    .view-clone-of-information-links > .view-content .views-row-6,
+    .view-clone-of-information-links > .view-content .views-row-9 {
+      border-right: 0px; }
+
+  .box1, .box2, .box3, .box4 {
+    width: 90%; }
+
+  .view-home-slider .views-field-body,
+  .view-home-slider .views-field-title {
+    margin-left: 30px; }
+
+  .view-home-slider .views-field-title {
+    margin-top: 100px; }
+  .view-home-slider .views-field-body {
+    max-width: 300px; }
+
+  .view-home-slider h1 {
+    margin-top: 70px; } }
+@media screen and (max-width: 500px) {
+  .view-home-slider .views-row-3 {
+    background-position: -300px; }
+
+  #nutrition-chart {
+    width: 100% !important;
+    height: auto !important; } }
+@media screen and (max-width: 400px) {
+  .region-footer1 h2 {
+    font-size: 32px; }
+
+  .view-information-body > .view-content > .views-row > .views-field-title span {
+    line-height: 1em;
+    display: block; }
+
+  .i18n-fr #block-system-main-menu .expanded .menu a {
+    padding-right: 140px;
+    font-size: 16px; }
+
+  .view-home-slider .views-field-body,
+  .view-home-slider .views-field-title {
+    margin-left: 10px;
+    text-align: center; }
+
+  #footer-inner {
+    height: auto; } }

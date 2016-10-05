@@ -1,0 +1,24 @@
+name = transplantaction
+description = transplantaction Custom
+core = 7.x
+
+scripts[] = js/banner-slider.js
+scripts[] = js/information-slider.js
+scripts[] = js/mobile.js
+
+
+
+stylesheets[all][] = css/screen.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = banner slider
+regions[white-region1] =White Region
+regions[blue-region1] =Blue header Region
+regions[white-region2] =white Region second
+regions[blue-region2] =Blue region second
+regions[content] = Content
+regions[white-region-bottom] =white Region bottom
+regions[sidebar] = Sidebar
+regions[footer1] = About Footer
+regions[footer] = Footer

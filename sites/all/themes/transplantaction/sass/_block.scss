@@ -1,0 +1,342 @@
+#block-block-1,
+#block-block-9
+{
+	width:400px;
+	float:left;
+	padding-top:30px;
+
+	a
+	{
+		line-height:90px;
+	}
+
+	p
+	{
+		padding-bottom:0px;
+	}
+
+	img
+	{
+		vertical-align: middle;
+	}
+}
+
+#block-views-home-slider-block
+{	
+	height:490px;
+
+	.views-row
+	{
+		float:left;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:490px;
+	}
+
+	.view-content
+	{
+		position:relative;
+	}
+}
+
+.fr
+{
+	.view-home-slider
+	{
+		.views-field-body 
+		{	
+			.field-content
+			{
+				max-width: 372px;
+			}
+		}
+	}	
+}
+
+.view-home-slider
+{
+		position:relative;
+		overflow:hidden;
+
+		a:hover
+		{
+			text-decoration: underline !important;
+		}
+
+
+		.views-row-3
+		{
+			background-image:url("../images/header_back.jpg");
+		}
+		.views-row-1
+		{
+			background-image:url("../images/caregivers.jpg");
+		}
+		.views-row-2
+		{
+			background-image:url("../images/excercise.jpg");
+		}
+
+
+		.view-content
+		{
+			position:relative;
+		}
+
+		.views-field-body 
+		{	
+			h2
+			{
+				font-size: 36px;
+				color:white;
+				padding-bottom:15px;
+			}
+
+			.field-content
+			{
+				max-width: 330px;
+			}
+
+			.field-content
+			{
+				max-width: 370px;
+			}
+			
+		}
+
+		.views-field-body,
+		.views-field-title
+		{
+			 max-width: 920px;
+			 padding:0 20px;
+ 			 margin: 0 auto;
+		}
+
+		h1
+		{
+			text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+			margin-top: 150px;
+		}
+		 
+	ul.indicators
+	{
+		z-index: 9999;
+		text-align: center;
+		margin: 0 auto;
+	  	width: 100%;
+	  	position: absolute;
+	  	bottom: 10px;
+	  	padding-left: 0px;
+				
+		li.active
+		{	
+			background-image: url("../images/orange-circles.png");
+		
+		}
+
+		li
+		{
+			width:5px;
+			height:30px;
+			color: transparent;
+			font-size: 0;
+			background-image: url("../images/grey-dot.png");
+			background-position:center center;
+			padding:10px;
+			background-repeat:no-repeat;
+			display:inline-block;
+			opacity: 1;
+			cursor:pointer;
+		}
+	}
+}
+
+.page-node-11 #block-system-main
+{
+	width: 45%;
+	margin-right: 20px;
+	float:left;
+}
+
+#block-block-3
+{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0px;
+	clear:left;
+	background:white;
+
+	p
+	{
+		font-size: 18px;
+		color: $blue;
+	}
+}
+
+
+#block-block-4,
+#block-block-11--2
+{
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow:hidden;
+}
+
+.i18n-fr
+{	
+	#block-views-website-links-footer-block .views-row-3
+	{
+		.views-field-field-image-link
+		{
+			line-height: 135px;
+		}
+	}
+}
+
+#block-views-website-links-footer-block,
+#block-views-website-links-footer-block--2
+{	
+	overflow:hidden;
+	background:white;
+
+	.view-content
+	{
+		max-width: 950px;
+		margin: 40px auto;
+		overflow:hidden;
+	}
+	.views-field-field-image-link
+	{
+		line-height: 120px;
+
+		img
+		{
+			vertical-align: bottom;
+		}
+	}
+	.views-row
+	{	
+		float: left;
+		width: 33%;
+		height: 230px;
+		text-align: center;
+	}
+
+	.views-row-3
+	{
+		.views-field-field-image-link
+		{
+			line-height: 130px;
+		}
+	}
+
+	.views-field-title
+	{
+		color:$blue;
+		padding:0px 50px;
+		font-size: 20px;
+		text-shadow:none;
+		padding-top: 10px;
+	}
+}
+
+#block-block-5 
+{	
+	h2
+	{
+		font-size:36px;
+		text-align: center;
+		padding-top: 40px;
+	}
+
+	p
+	{
+		color:$blue;
+		text-align: center;
+	}
+}
+
+.region-footer1
+{	
+	min-height:520px;
+	padding: 20px 0px;
+	background-image:url("../images/aboutus-back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	-ms-behavior: url("/sites/all/themes/transplantaction/css/backgroundsize.htc");
+	background-position:center center;
+	border-bottom:5px solid $blue;
+
+	h2
+	{
+		font-size: 36px;
+		padding-bottom:30px;
+		text-align: center;
+		font-weight:500;
+		text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+	}
+
+	
+	.content
+	{
+		max-width: 840px;
+  		margin: 0 auto;
+		text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+
+		p
+		{
+			max-width: 420px;
+		}
+	}
+}
+
+
+
+#block-locale-language
+{	
+	padding-top:10px;
+	margin-left:-107px;
+	z-index:9999;
+	position:relative;
+	float:right;
+
+	li
+	{
+		float: left;
+		padding-right:10px;
+		list-style:none;
+
+		&:first-child
+		{
+			a
+			{
+				padding-right:11px;
+				border-right:1px solid $blue;
+			}
+		}
+
+		a
+		{
+			color:$blue;
+			font-size: 14px;
+
+
+			&:hover,
+			&.active
+			{
+				color:$orange;
+			}
+
+
+		}
+	}
+}
+
+
+#block-block-6 p,
+#block-block-12 p
+{
+	padding-bottom:0px;
+	margin-bottom:-5px;
+}

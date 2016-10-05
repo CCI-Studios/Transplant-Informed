@@ -1,0 +1,441 @@
+#block-views-information-body-block 
+{
+	background:$blue;
+}
+
+.view-information-body
+{		
+	
+		position:relative;
+		margin:0 auto;
+		overflow:hidden;
+		text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+		.clear
+		{
+			clear: left;
+		}
+
+		.heading-center
+		{
+			text-align: center;
+			clear: left;
+		}
+		
+		h2
+		{
+			padding-bottom:10px;
+			text-transform: uppercase;
+		}
+
+		a
+		{
+			color:white;
+		}
+
+		.subtext
+		{
+			max-width:300px;
+			margin-left: 40px;
+		}
+
+		& > .view-content
+		{
+			position:relative;
+
+			& > .views-row > .views-field-title
+			{
+				text-align: center;
+				padding:20px 0px;
+				text-transform:uppercase;
+
+				span
+				{
+					color:$orange;
+				}
+			}
+		}
+
+		ul
+		{
+			padding-bottom:10px;
+		}
+
+		.inner-body
+		{
+			max-width: 880px;
+			margin: 0 auto;
+		}
+
+	  	.left
+	  	{
+	  		float: left;
+	  		width:45%;
+	  		padding:20px;
+	  	}	
+
+	  	.views-row-4
+	  	{	
+	  		.bottom-white 
+			{	
+				p
+				{
+					color:$blue;
+					max-width: 600px;
+				}
+			}
+	  	}
+
+	  	.views-row-7
+	  	{
+	  		.text p
+	  		{
+	  			color:$orange;
+	  		}
+	  	}
+
+  		.views-row-9
+	  	{
+	  		.inner-body
+	  		{
+	  			width:500px;
+	  			padding:20px 0px;
+	  		}
+	  	}
+
+		.views-row
+		{
+			position:relative;
+			float:left;
+			width:30%;
+			.views-field-body
+			{
+				overflow:hidden;
+			}
+			.field-content
+	    	{
+	    		vertical-align: middle;
+
+	    		.top-block
+				{
+					max-width: 880px;
+					margin:0 auto;
+					overflow: hidden;
+				}
+
+	    	}
+
+			&:hover
+			{
+				.views-field-title
+				{
+					display: block;
+				}
+			}
+		}
+
+		#block-block-2,
+		#block-block-10--2
+		{
+			float:left;
+			width:45%;
+			padding:20px;
+		}
+}
+
+a.now-what
+{
+	background:url("../images/now-what.png") no-repeat center 25%;
+	background:url("../images/now-what.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/now-what-hover.png") no-repeat center 25%;
+		background:url("../images/TI-NowWhat-Wht.svg") no-repeat center 25%;
+	}
+}
+
+
+a.inf-rej
+{
+	background:url("../images/infection-icon.png") no-repeat center 25%;
+	background:url("../images/infection.svg") no-repeat center 25%;
+	z-index: 9999;
+	
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/infection-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Infection-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.medication
+{	
+	background:url("../images/medication.png") no-repeat center 25%;
+	background:url("../images/medication.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/medication-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Medication-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.nutrition
+{	
+	background:url("../images/nutrition.png") no-repeat center 25%;
+	background:url("../images/nutrition.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/nutrition-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Nutrition-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.exercise
+{	
+	background:url("../images/excercise.png") no-repeat center 25%;
+	background:url("../images/excercise.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/exercise-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Exercise-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.sexuality
+{	
+	background:url("../images/sexuality.png") no-repeat center 25%;
+	background:url("../images/sexuality.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/sexuality-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Sexuality-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.caregivers
+{	
+	background:url("../images/caregiver.png") no-repeat center 25%;
+	background:url("../images/caregiver.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/caregiver-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Caregivers-Wht.svg") no-repeat center 25%;
+	}
+}
+
+
+a.track
+{	
+	background:url("../images/track.png") no-repeat center 25%;
+	background:url("../images/track.svg") no-repeat center 25%;
+
+	li.active &,
+	&:hover
+	{
+		background:url("../images/track-hover.png") no-repeat center 25%;
+		background:url("../images/TI-StayingOnTrack-Wht.svg") no-repeat center 25%;
+	}
+}
+
+a.support
+{	
+	background:url("../images/support.png") no-repeat center 25%;
+	background:url("../images/support.svg") no-repeat center 25%;
+
+	li.leaf.active &,
+	&:hover
+	{
+		background:url("../images/support-hover.png") no-repeat center 25%;
+		background:url("../images/TI-Support-Wht.svg") no-repeat center 25%;
+	}
+}
+
+#block-menu-menu-second-menu
+{
+	background:white;
+}
+
+#block-menu-menu-second-menu.menu-fixed
+{
+	position:fixed;
+	top:0px;
+	width:100%;
+	z-index:999;
+	border-bottom:1px solid $blue;
+
+	ul.menu a
+	{
+		background:none;
+		padding-top:10px;
+	}
+
+	ul.menu li:hover a
+	{
+		background:none;
+	}
+}
+
+.scroll-top
+{
+	display:none;
+}
+
+.view-information-links,
+.view-clone-of-information-links,
+#block-menu-menu-second-menu
+{	
+	
+	.views-row,
+	li
+	{
+	 	display: inline-block;
+		padding: 0 10px;
+		cursor: pointer;
+
+		p
+		{
+			font-size: 28px;
+			padding-bottom:0;
+			text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+		}
+
+		&:hover
+		{
+			@extend .active;
+		}
+	}
+
+	.content
+	{
+		max-width: 940px;
+		margin: 0 auto;
+	}
+
+	ul.menu
+	{
+		text-align: center;
+		overflow: hidden;
+
+		img
+		{		
+			vertical-align: middle;
+		}
+
+		.views-field-title,
+		a
+		{
+			max-width:950px;
+			margin:0 auto;
+			overflow:hidden;
+			width:80px;
+			height: 50px;
+			font-weight: 500;
+			padding:0px 10px;
+			padding-top:75px;
+			font-size:16px;
+			background-position: center 25%;
+			text-align: center;
+			color: $blue;
+			padding-bottom:10px;
+			vertical-align: middle;
+  			display: table-cell;
+		}
+
+		li.active a,
+		li:hover a
+		{
+			color:white;
+		}
+
+
+		.views-row,
+		li
+		{
+			float: left;
+			list-style:none;
+			margin:0;
+			padding:0;
+			vertical-align: middle;
+			border-right:1px solid $blue;
+			display: block;
+			width: 100px;
+			overflow:hidden;
+
+			&:last-child
+			{
+				border-right:0px;
+			}
+
+			a:hover
+			{
+				color:white;
+			}
+		}
+
+		li:hover ,li.active
+		{	
+			background:url("../images/menu-back-hover.png");
+			background-position: center center;
+			background-size:cover;
+		}
+
+		li.expanded
+		{	
+			li:hover
+			{
+				background:none;
+			}
+
+			ul.menu
+			{
+				background:$orange;
+				width: 100%;
+				left:0;
+				padding-left: 0px;
+
+				li
+				{
+					float: none;
+					display: inline-block;
+					border-right:0px;
+					width:auto;
+				}
+			}
+		}
+
+		li.expanded:hover ul.menu,
+		li.expanded.active ul.menu
+		{
+			display: block;
+
+		
+
+			a
+			{
+				padding-top:20px;
+				width:auto;
+				font-size: 24px;
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+
+	}	
+}
+	

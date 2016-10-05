@@ -1,0 +1,532 @@
+@media screen and (max-width:1070px)
+{
+	#block-block-7
+	{
+		padding:20px 10%;
+	}
+}
+
+@media screen and (max-width:990px)
+{
+	#block-system-main-menu ul.menu a
+	{
+		padding: 0px 5px;
+	}
+
+	#block-views-website-links-footer-block .views-field-title
+	{
+		padding:0 20px;
+	}
+}
+
+@media screen and (max-width:940px)
+{
+	.i18n-fr  #block-system-main-menu
+	{	
+
+	  padding-left: 0px;
+	  max-width: 400px;
+	}
+
+	#block-system-main-menu
+	{	
+
+	  padding-left: 0px;
+	  width: 340px;
+	}
+
+
+	.view-home-slider 
+	{	
+		.views-row-3
+		{
+			background-position:-200px;
+		}	
+	}
+
+	.region-header
+	{
+		height: 120px;
+	}
+
+
+	#block-menu-menu-second-menu   
+	{	
+		.content
+		{
+			max-width: 770px;
+			margin: 0 auto;	
+		}
+		
+		ul.menu	
+		{
+			
+
+		  	.views-row,
+		  	li
+		  	{
+		  		width:10.99%;
+		  	}
+		  		
+			li a
+			{
+				padding:90px 7px 0px;;
+				font-size: 14px;
+				width:70px;
+			}
+		}
+		
+	}
+
+		.box1, .box2, .box3, .box4
+		{
+			width:43%;
+		}
+
+		#track-image
+		{
+			width:300px ! important;
+			height:auto!important;
+		}
+
+		.view-information-body 
+		{	
+			.inner-body
+			{
+				max-width: 795px;
+			}
+			
+			.left
+			{
+				width:43%;
+			}
+		}
+
+		#block-block-7,
+		#block-block-8
+		{
+			padding:20px 20px;
+		}
+
+		#safe-food, #food-avoid
+		{
+			padding:0px;
+		}
+}
+
+
+@media screen and (max-width:860px)
+{
+
+	#block-block-1,
+	#block-block-9
+	{
+		max-width:330px;
+		margin: 0 auto;
+
+		img
+		{
+			width:100%;
+		}
+	}
+
+	#block-system-main-menu ul.menu a
+	{
+		font-size: 14px;
+	}
+
+	.i18n-fr #block-system-main-menu ul.menu a
+	{
+		font-size: 14px;
+		width:70px;
+	}
+}
+
+@media screen and (max-width:792px)
+{
+	#block-locale-language
+	{
+		position: absolute;
+		margin-left: 0px;
+
+	}
+
+	#block-views-website-links-footer-block .views-field-title,
+	#block-views-website-links-footer-block--2 .views-field-title
+	{
+		padding:0px 20px;
+	}
+}
+
+@media screen and (max-width:767px)
+{	
+	.scroll-top
+	{
+		display: block;
+		position: fixed;
+		bottom:30px;
+		padding:10px;
+		right:10px;
+		z-index: 99999;
+		cursor: pointer;
+		color:white;
+		background: $orange;
+	}
+	#block-block-1,
+	#block-block-9
+	{
+		float:none;
+		background: url(../images/cta-logo.png) no-repeat right;
+		background-position: right top;
+		background-size: 15%;
+		max-width:300px;
+		margin: 0 auto ;
+		margin-top: 10px;
+		padding:50px 0px 11px;
+
+
+		img
+		{
+			width:100%;
+		}
+
+		a
+		{
+			display: block;
+			line-height: 40px;
+		}
+
+	}
+
+	.view-information-body 
+	{	
+		.top-block
+		{
+			width:90%;
+		}
+		.left
+		{
+			width: 100%;
+			padding:20px 0px
+		}
+
+		#block-block-2,
+		#block-block-10--2
+		{
+			width:100%;	
+		}
+
+		#safe-food, #food-avoid
+		{
+			float: none;
+			width:100%;
+		}
+
+		.views-row-9 .inner-body
+		{
+			width:90%;
+		}
+
+	}
+
+	#block-system-main-menu .expanded .menu 
+	{	
+		margin-top: -5px;
+		a
+		{
+			padding-right: 0px;
+			margin: 0 auto;
+			float: none;
+		}
+	}
+
+	#block-views-home-slider-block 
+	{	
+		height: 390px;
+		.views-row
+		{
+			height: 390px;
+		}
+	}
+		
+
+	.views-row-3
+	{
+		.box4
+		{
+		  width: 80%;
+		  padding-left: 10%;
+		}
+	}
+
+	.i18n-fr
+	{
+		#block-system-main-menu 
+		{	
+			width:100%; 
+			ul.menu
+			{
+				a
+				{
+					font-size: 12px;
+					padding:15px 3px;
+				}
+			}
+
+			li.expanded ul.menu
+			{
+				width:100%;
+			}
+		
+		}
+	}
+
+	#block-system-main-menu ul.menu li:hover
+	{
+		background:none;
+	}
+
+	#block-system-main-menu 
+	{	
+	  float:none;
+	  padding-left: 0px;
+	  width:100%;
+	  height: 80px;
+	  margin: 0 auto;
+	  background-image:none;
+
+	
+		ul.menu 
+		{	
+			float: none;
+			height: 54px;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+
+			li
+			{
+				display: inline-block;
+				height: 54px;
+			}
+
+			li.expanded 
+			{
+				ul.menu
+				{
+					padding-top:0px;
+					width: 100%;
+
+					a
+					{
+						font-size: 16px;
+					}
+				}
+			}
+
+			a
+			{	
+				height: 34px;
+				display: table-cell;
+				padding:15px 13px;
+			}
+			li a:hover
+			{
+				background: url("../images/menu-back-hover.png");
+			}
+		}
+		
+	}
+
+	.region-header
+	{
+		height: 164px;
+		
+	}
+
+
+#block-views-website-links-footer-block .views-row,
+#block-views-website-links-footer-block--2 .views-row
+{
+	float:none;
+	width:100%;
+	height:auto;
+}
+
+
+
+#block-menu-menu-second-menu.menu-fixed-mobile
+{	
+	top:0px;
+	width:100%;
+	z-index:999;
+	
+}
+	
+ #block-menu-menu-second-menu .content >ul.menu
+ {	
+
+	margin: 0 auto;
+	padding-left:0px;
+
+ 	li:nth-child(4),
+	li:nth-child(7)
+	{
+		clear: left;
+	}
+
+	li.expanded 
+	{	
+	
+		&.active .menu-toggle
+		{
+			display: block;
+		}
+		ul.menu
+		{
+			display: none;
+			margin-top:0px;
+
+			a
+			{
+				height: 30px;
+				font-size: 20px;
+			}
+		}
+		a
+		{
+			color:white;
+		}
+		&.active ul.menu li
+		{
+			border-bottom:0px;
+			display: block;
+		}
+	}
+
+	li
+	{
+		border-bottom: 1px solid $blue;
+		width: 33.10%;
+
+		&:hover a
+		{
+			background-position:center!important;
+			
+		}
+		
+		a
+		{
+			padding:20px 0px;
+			background-position:center!important;
+			display: block;
+			width:100%;
+			color: transparent;
+			font-size: 0px;
+			
+
+			&:hover
+			{
+				background-position:center !important;
+			}
+		} 
+	}
+
+	li:nth-child(3),
+	li:nth-child(6),
+	li:nth-child(9)
+	{
+		border-right:0px;
+	}
+
+ } 
+
+
+	.box1, .box2, .box3, .box4
+	{
+		width:90%;
+	}
+
+	.view-home-slider .views-field-body,
+	.view-home-slider .views-field-title
+	{
+		margin-left: 30px;
+	}
+
+	.view-home-slider 
+	{
+		.views-field-title
+		{
+			margin-top: 100px;
+		}
+
+		.views-field-body
+		{
+			max-width: 300px;
+		}
+
+	}
+
+	.view-home-slider h1
+	{
+		margin-top:70px;
+	}
+}
+
+
+@media screen and (max-width:500px)
+{
+	.view-home-slider 
+	{
+		.views-row-3
+		{
+			background-position:-300px;
+		}
+	}
+
+	#nutrition-chart
+	{
+		width:100%!important;
+		height: auto!important;
+	}
+
+	#block-menu-menu-second-menu .content > ul.menu li a
+	{
+		padding: 5px 0px;
+		background-size:30%;
+	}
+}
+
+
+@media screen and (max-width:400px)
+{
+	.region-footer1 h2
+	{
+		font-size: 32px;
+	}
+
+	.view-information-body > .view-content > .views-row > .views-field-title span
+	{
+		line-height: 1em;
+		display: block;
+	}
+
+	.i18n-fr #block-system-main-menu .expanded .menu a
+	 {
+		  padding-right: 140px;
+		  font-size: 16px;
+	 }
+
+	.view-home-slider .views-field-body,
+	.view-home-slider .views-field-title
+	{
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	#footer-inner
+	{
+		height:auto;
+	}
+}
+  
